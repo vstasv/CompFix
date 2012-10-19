@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="RemontPk">
+  <DataContextMoniker Name="/RemontPkDataContext" />
+  <nestedChildShapes>
+    <classShape Id="87b593f3-044e-419f-8e58-000be06ddc32" absoluteBounds="1.5, 0.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/RemontPkDataContext/Feedback" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad11949b-d587-4870-ba2b-dff21a08452c" absoluteBounds="1.5150000000000001, 1.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

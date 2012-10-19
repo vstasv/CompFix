@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head>
+        <title>Ремонт комьютеров</title>
+        <link href="style.css" rel="Stylesheet" type="text/css" />
+        
+        <style type="text/css">
+            .style1
+            {
+                width: 265px;
+                height: 50px;
+            }
+            .style2
+            {
+                width: 223px;
+                height: 178px;
+            }
+        </style>
+        
+    </head>
+    <body bgcolor="white">
+        <!--<object width="550" height="400">
+<param name="movie" value="cloud.swf">
+<embed src="cloud.swf" width="550" height="400">
+</embed>
+</object>-->
+        <img src="Pics/header.gif"  width="100%"/>
+        <table class="mainTable" align="center">
+            <tr>
+                <td>
+                    <p class="top" align="center" >
+                        Приветствуем ВАС!
+                        <img alt="" class="style1" src="Pics/phonetop.png" /></p>
+                    <table align="center">
+                    <tr>
+                            
+                        <td>
+                                
+                            <img  src="Pics/logo.jpg" width="600" height="300"/>
+                            <img src="Pics/pc.jpg" width="400" height="300"/>
+                                
+                        </td></tr>
+                    <table align="center">
+
+                        <tr>
+                            <td>
+                                <ul class="mainMenu">
+                                    <li><a href="Default.htm">Главная</a></li>
+                                    <ul>
+                                        <li>write</li>
+                                        <li>me</li>
+                                        <li>oh shiiiiiiiiiiiiiiiiiiit!</li>
+                                    </ul>
+                                    <li><a href="About us.htm">О компании</a></li>
+                                    <li><a href="CoolPics.htm">Картинки</a></li>
+                                    <li><a href="donate.htm">Донат</a></li>
+                                    <li><a href="eula.htm">Соглашение с пользователем</a></li>
+                                    <li><a href="feedback.aspx">Обратная связь</a></li>
+                                    <li><a href="fixedComputers.htm">Отремонтированные комьпьютеры</a></li>
+                                    <li><a href="guest.htm">Гость</a></li>
+                                    <li><a href="partners.htm">Партнеры</a></li>
+                                    <li><a href="price.htm">Цена</a></li>
+                                    <li><a href="services.htm">Сервисы</a></li>
+                                    <li><a href="Cookies.htm">Печеньки</a></li>
+                                </ul>  
+                            </td>
+                            <td>
+                                
+                                <p class="simhey"> Мы работаем для <a href="http://www.kokoko.ru/uploads/posts/1188551008_11_sposobov_01.jpg">вашего</a> удобства и комфорта, поэтому выбрали соответствующий график предоставления услуг:
+                                    круглосуточная работа по ремонту и восстановлению компьютеров;
+                                    отсутствие обеденных перерывов, выходных и праздничных дней;
+                                    охват всей территории Москвы, вне зависимости от района, в котором вы проживаете;
+                                    срочный ремонт компьютеров на дому в тот же день, в который вы сделали вызов мастера.
+                                </p>
+                            </td>
+                            <td>
+                                <a href="Specialist.aspx"><img class="style2" src="Pics/girl.jpg" />Связаться со специалистом</a>
+                                <ul>
+                                    
+                                    <li>text</li>
+                                    <li>text</li>
+                                    <li>text</li><li>text</li>
+                                    <li>text</li>
+                                    <li>text</li>
+                                    <li>text</li>
+                                    <li>text</li><li>text</li>
+                                    <li>text</li>
+                                    
+
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                    <br/>
+                    <pre>
+                    public static string GetActivationCode(string licenseNumber,string installationID,string expiriationDate)
+                    {
+                    string activationCode = null;
+                    string m = licenseNumber + installationID + expiriationDate;
+                    activationCode = CalculateRFC2104HMAC(m, ActivateKey);
+                    return activationCode;
+                    }
+
+                    public static string GetActivationSignature(string expiriationDate,string activationCode)
+                    {
+                    string signature = null;
+                    signature =CalculateRFC2104HMAC(expiriationDate + activationCode,CheckKey);
+                    return signature;
+                    }
+		
+                    public static string CalculateRFC2104HMAC(string parameters, string secretKey)
+                    {
+                    string result = String.Empty;
+                    var myhmacsha1 = new HMACSHA1();
+                    myhmacsha1.Key = Encoding.ASCII.GetBytes(secretKey);
+                    byte[] sigBaseStrByteArr = Encoding.UTF8.GetBytes(parameters);
+                    byte[] hashValue = myhmacsha1.ComputeHash(sigBaseStrByteArr);
+                    result = Convert.ToBase64String(hashValue);
+                    return result;
+                    }
+                    </pre>
+                    <br/>
+                </td>
+            </tr>
+        </table>
+    
+
+    </body>
+</html>
