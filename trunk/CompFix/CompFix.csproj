@@ -64,6 +64,8 @@
     <Content Include="Cookies.htm" />
     <Content Include="Default.htm" />
     <Content Include="CoolPics.htm" />
+    <Content Include="EssentialResources\bg.png" />
+    <Content Include="Essentials.aspx" />
     <Content Include="feedback.aspx" />
     <Content Include="guest.htm" />
     <Content Include="eula.htm" />
@@ -140,6 +142,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Essentials.aspx.cs">
+      <DependentUpon>Essentials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Essentials.aspx.designer.cs">
+      <DependentUpon>Essentials.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
