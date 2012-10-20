@@ -13,15 +13,24 @@
 
     </form>
 
-    <table width="50%" align=center border="1" cellpadding="5" cellspacing="5">
+    <table width="75%" align=center border="1" cellpadding="5" cellspacing="5">
         
         <tr>
-            <td colspan="2">1
+            <td colspan="2" class="header" height="50px">
             </td>
         </tr>
 
         <tr>
-            <td colspan="2">2
+            <td colspan="2">
+                <ul>
+                    <li>Home</li>
+                    <li>Shop</li>
+                    <li>Shipping</li>
+                    <li>Refund Policy & FAQ</li>
+                    <li>Your Acoount</li>
+                    <li>Contact Us</li>
+                    <li>Your Shipping Cart</li>
+                </ul>
             </td>
         </tr>
         
@@ -36,15 +45,50 @@
         </tr>
 
         <tr>
-            <td>
+            <td width="25%">
             
+            <table>
+                <tr>
+                    <td>
+                        Top Sellers
+                        <ul>
+                            <li>Kids Everyday Essentials</li>
+                            <li>Mens Everyday Essentials</li>
+                            <li>Womens Everyday Essentials</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Customer Service
+                        <ul>
+                            <li>Contact Us</li>
+                            <li>Terms & Conditions</li>
+                            <li>Privacy Policy</li>
+                            <li>Shipping</li>
+                            <li>Refunds & Returns</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Secure Payments Accepted
+                    </td>
+                </tr>
+                <tr>
+                    <td>PayPal</td>
+                </tr>
+            </table>
+
             </td>
 
             <td>
             
-                <table>
+                <table width="100%" border="1" cellpadding="5" cellspacing="5">
                     <tr>
-                        <td>1</td>
+                        <td>
+                            <div style="background-color:Blue;"></div>
+                        </td>
                         <td>2</td>
                         <td>3</td>
                     </tr>
@@ -62,6 +106,11 @@
             
             </td>
         
+        </tr>
+
+        <tr>
+            <td colspan="2" class="footer">
+            </td>
         </tr>
 
      </table>
