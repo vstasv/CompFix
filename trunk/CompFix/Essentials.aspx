@@ -7,13 +7,21 @@
     <title></title>
     <link href="EssentialResources/style.css" rel="stylesheet" type="text/css" />
     
+    <style type="text/css">
+        .style1
+        {
+            width: 960px;
+            height: 340px;
+        }
+    </style>
+    
 </head>
 <body background="EssentialResources/bg.png">
     <form id="form1" runat="server">
 
     </form>
 
-    <table width="75%" align=center border="1" cellpadding="5" cellspacing="5">
+    <table width="960px" align=center border="1">
         
         <tr>
             <td colspan="2" class="header" height="50px">
@@ -22,7 +30,7 @@
 
         <tr>
             <td colspan="2">
-                <ul>
+                <ul class="mainMenu">
                     <li>Home</li>
                     <li>Shop</li>
                     <li>Shipping</li>
@@ -35,8 +43,9 @@
         </tr>
         
         <tr>
-            <td colspan="2">3
-            </td>
+            <td colspan="2">
+                <img alt="logo" class="style1" 
+                    src="EssentialResources/home/logo%20bar/womanAndMan.jpg" /></td>
         </tr>
 
         <tr>
@@ -45,7 +54,7 @@
         </tr>
 
         <tr>
-            <td width="25%">
+            <td width="250">
             
             <table>
                 <tr>

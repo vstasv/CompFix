@@ -65,6 +65,19 @@
     <Content Include="Default.htm" />
     <Content Include="CoolPics.htm" />
     <Content Include="EssentialResources\bg.png" />
+    <Content Include="EssentialResources\home\buttons\btnBlack.png" />
+    <Content Include="EssentialResources\home\buttons\btnWhite.png" />
+    <Content Include="EssentialResources\home\logo bar\blackBackground.png" />
+    <Content Include="EssentialResources\home\logo bar\middle.png" />
+    <Content Include="EssentialResources\home\logo bar\womanAndMan.jpg" />
+    <Content Include="EssentialResources\home\top menu\blue.jpg" />
+    <Content Include="EssentialResources\home\top menu\buttons.jpg" />
+    <Content Include="EssentialResources\home\top menu\orange.jpg" />
+    <Content Include="EssentialResources\home\top menu\pink.jpg" />
+    <Content Include="EssentialResources\home\top menu\purple.jpg" />
+    <Content Include="EssentialResources\home\top menu\red.jpg" />
+    <Content Include="EssentialResources\home\top menu\yellow.jpg" />
+    <Content Include="EssentialResources\style.css" />
     <Content Include="Essentials.aspx" />
     <Content Include="feedback.aspx" />
     <Content Include="guest.htm" />
@@ -187,6 +200,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HandlerResourcesHelloWorld.ashx" />
+    <None Include="EssentialResources\home\buttons\Thumbs.db" />
+    <None Include="EssentialResources\home\logo bar\Thumbs.db" />
     <None Include="RemontPk.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>RemontPk.designer.cs</LastGenOutput>
